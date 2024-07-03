@@ -1,0 +1,12 @@
+---
+all:
+  hosts:
+    node01:
+      ansible_host: 52.234.136.94
+    node02:
+      ansible_host: 52.234.141.225
+    node03:
+      ansible_host: 52.234.132.133
+  vars:
+     ansible_user: ubuntu
+     ansible_ssh_private_key_file: ansible-master
